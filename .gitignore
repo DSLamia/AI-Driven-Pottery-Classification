@@ -1,0 +1,37 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets (never commit)
+*.pem
+*.key
+secrets.*
+kaggle.json
+.huggingface/
+
+# Large data and model artifacts (kept in Google Drive, not in Git)
+*.npz
+*.keras
+*.h5
+*.pkl
+*.zip
+final_dataset/
+data/
+*.jpg
+*.jpeg
+*.JPG
+*.png
+!assets/*.png
